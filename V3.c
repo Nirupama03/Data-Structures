@@ -77,14 +77,14 @@ void main()
 						pos =pos -> next;
 					}
 				}
-				if (flag ==1)
-				{
-					printf(" The element is present in the list.\n ");
-				}
-				else
-				{
-					printf("The element is not present in the list.\n");
-				}
+					if (flag ==1)
+					{
+						printf(" The element is present in the list.\n ");
+					}
+					if (flag ==0)
+					{
+						printf("The element is not present in the list.\n");
+					}
 				break;
 			case 5:
 				printf("\nThankyou !\n");
